@@ -1,0 +1,32 @@
+.Countris{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    margin: 0 auto;
+}
+
+.head{
+    border: 1px solid rebeccapurple;
+    font-size: 4.5vw;
+    margin-bottom: 20px;
+    padding: 10px;
+    
+}
+
+@media (max-width: 450px){
+    .Countris{
+        display: grid;
+        grid-template-columns: 1fr;   
+        margin: 0 auto;
+    }
+
+}
+@media (min-width: 480px) and (max-width: 850px){
+    .Countris{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 30px;
+        margin: 0 auto;
+    }
+
+}
